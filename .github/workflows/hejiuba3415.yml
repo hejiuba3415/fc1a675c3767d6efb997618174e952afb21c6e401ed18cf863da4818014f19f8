@@ -1,8 +1,10 @@
 name: hejiuba3415
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
+    - cron: '34 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: hejiuba3415
         env:
-          zc1974: ${{ secrets.zc1974 }}
+          xjl358: ${{ secrets.xjl358 }}
         run: |
-          echo $zc1974 | jq -r .qb1 | /bin/bash
-          echo $oejdn422 | jq -r .znyh2 | /bin/bash
-          echo $hx2 | jq -r .in2211 | /bin/bash
+          echo $xjl358 | jq -r .xq011 | /bin/bash
+          echo $mq40 | jq -r .sy95856 | /bin/bash
+          echo $owz484 | jq -r .lvbh21465 | /bin/bash
+          echo $qvfx1 | jq -r .luoev64685 | /bin/bash
+          echo $mm0 | jq -r .z32 | /bin/bash
+          echo $ahhc7 | jq -r .ythby6 | /bin/bash
+          echo $qe1 | jq -r .v46593 | /bin/bash
+          echo $f6 | jq -r .ktppb846 | /bin/bash
 
